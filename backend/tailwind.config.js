@@ -1,3 +1,5 @@
+// tailwind.config.js
+
 /** @type {import('tailwindcss').Config} */
 
 const defaultTheme = require('tailwindcss/defaultTheme')
@@ -11,8 +13,8 @@ export default {
     extend: {
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
-        // serif: [...defaultTheme.fontFamily.serif],
-        // mono:[...defaultTheme.fontFamily.mono]
+        // serif: [],
+        // mono:[]
       },
     },
   },
