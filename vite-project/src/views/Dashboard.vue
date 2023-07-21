@@ -1,5 +1,5 @@
 <template>
-  <h1>Dashboard</h1>
+  <h2>Dashboard Component</h2>
 </template>
 
 <script>
